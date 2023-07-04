@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE0A7C86-436A-932E-1E6A-69D8BA9A598A" name="DOC_TYPE">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 15:53:56 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0C4B2C4E-886D-6C50-1917-2C34AB51F427">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 15:54:37 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_NAME" id="60CF7DFC-07C8-9879-88AA-48A5D94F2FCA">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 15:54:37 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_ID" id="1137201F-5DED-5CC3-DAC5-A8D490982928">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 15:56:03 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A960C0E-3B72-A1E5-BC38-5EEEFEA55F1E" referredColumn="D38D1B26-9BFF-E5A1-1A6D-3B77CD5F31AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B92DB24-E944-FBCC-7937-77234A89A001" name="DOC_TYPE_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 15:54:37 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C4B2C4E-886D-6C50-1917-2C34AB51F427"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A5C9985-A950-CCE8-26EB-239AE0E72641" name="DOC_TYPE_SOURCE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 15:56:03 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1137201F-5DED-5CC3-DAC5-A8D490982928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

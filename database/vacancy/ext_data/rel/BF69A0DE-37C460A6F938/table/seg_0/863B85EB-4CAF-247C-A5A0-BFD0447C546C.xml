@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="863B85EB-4CAF-247C-A5A0-BFD0447C546C" name="LANGUAGES">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:19:05 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9561CB5E-D916-57A7-5703-7F51AAC53D37">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:19:33 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VACANCY_ID" id="0C33AF61-69DB-E8F0-AABF-6AA3837CC739">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:20:15 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2DB1280-12B4-C6DD-B406-B61196D5E5B8" referredColumn="BA55F1EC-49F0-9B10-D6CB-81BE1DA0A175"/>
+</associations>
+</Column>
+<Column name="LANGUAGE_ID" id="305E72D3-7673-D11E-50CD-E085910320DD">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:20:21 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51B2527D-06DF-58DE-DCCF-0A3CD85F1F0D" referredColumn="60279648-9E66-387D-F3C0-EE4388A54A5E"/>
+</associations>
+</Column>
+<Column name="LANGUAGE_LEVEL_ID" id="07949D6F-CBBC-E6E5-55D7-FFCD2B5D776D">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:21:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACD0ED4E-A58C-5C4C-B4DB-C4AFB5DD533C" referredColumn="926C0F6D-57BA-AA9B-71FC-1A6D17DC048C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="910A6676-AA10-B17E-05D7-34DB41681259" name="LANGUAGES_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:19:33 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9561CB5E-D916-57A7-5703-7F51AAC53D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C3EBC1A-0DCD-5634-D27C-C0D089DC5791" name="LANGUAGES_VACANCY_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:20:15 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C33AF61-69DB-E8F0-AABF-6AA3837CC739"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BBF5892-F297-A7A9-E429-E2CFC6E4099B" name="LANGUAGES_LANGUAGE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:20:21 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="305E72D3-7673-D11E-50CD-E085910320DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36FF3A12-444C-8C7E-ADEC-EE1D63057D16" name="LANGUAGES_LANGUAGE_LEVEL_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:21:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07949D6F-CBBC-E6E5-55D7-FFCD2B5D776D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

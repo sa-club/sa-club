@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="444BC188-2547-10F5-0C2A-EEA48D59CBD8" name="EXPERIENCE">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:51:02 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="21A35FD6-B0D3-90AE-35A6-FB84D5C9E375">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:51:02 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPERIENCE_NAME" id="B5F8AF13-A339-1FAE-913E-68FB41CCBD9A">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:51:02 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EA10BB2-0014-8709-D8E6-4091117E9578" name="EXPERIENCE_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:51:02 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21A35FD6-B0D3-90AE-35A6-FB84D5C9E375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

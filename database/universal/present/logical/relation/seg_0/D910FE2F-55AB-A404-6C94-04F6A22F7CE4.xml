@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DB_OBJECT_RELATION_ROLE_FKv1" directorySegmentName="seg_0" id="D910FE2F-55AB-A404-6C94-04F6A22F7CE4">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:55 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<sourcePk>4FC565D3-BA22-596B-FA18-F99B610BEBDA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C6E29BA2-CE49-57F7-3D78-0B28A0834E7C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1EA7D41B-FFE7-96BC-9A66-0A4A8D20C2D3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

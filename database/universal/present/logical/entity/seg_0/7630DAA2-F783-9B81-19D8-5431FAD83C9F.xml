@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7630DAA2-F783-9B81-19D8-5431FAD83C9F" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:37 UTC</createdTime>
+<generatorID>50429E13-A16E-8C6C-D6DF-4875264CD3DB</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ИД" id="F3E0D1CE-4173-153D-5A9F-8AD3213B6FDD">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>B8333B09-5E6A-8080-F236-617E2E1DC1CC</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Серия" id="9B304CCC-9926-E59F-95D8-CFE6FECE9A76">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>CB1A0395-CBE4-C376-D051-0F4DC3D45B55</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Номер" id="7F2B2F48-85F2-3570-C1DD-CE37D00BF8EB">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>092D5B28-66B4-A530-84A6-18A85D371E9D</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата выдачи" id="4B34BDC6-CA2F-62F0-DE9D-C173844D37EA">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>2BD0FF84-6E05-BBDB-0037-6CE9B674A355</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Выдавший орган" id="1DCB30CF-4CBD-8484-58A8-31AC1C84A121">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:57:17 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД автомобиля" id="09311BF9-66A0-4557-F86D-E7BF4198A53F">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>D25C8618-4BBE-29D9-CBB6-B2B0F359158B</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>B7A1D988-6195-C4C0-8985-F6056D9A73CE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД владельца" id="35B3A058-82D5-75EF-2EE8-6AE14F35FC1C">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>58195A55-53C0-1973-6D7F-1A359489B117</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>A138FE8E-20F0-E22A-75AD-5C91562A8571</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EE974F5-7DA5-5BAD-6902-BE8150CC7716" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>D0F56BF3-D2AC-4EBE-A70E-95B87D8965A8</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3E0D1CE-4173-153D-5A9F-8AD3213B6FDD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

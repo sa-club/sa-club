@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAFED0B6-8BF9-B37A-A89F-B16C7A6F8132" name="ORDER_ITEMS">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_ID" id="65AF90CC-5D9F-8837-275D-4B6BE25ADCE3">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8E646F0-7AB1-9611-33D0-7D447CF78481" referredColumn="DD6E8B51-301E-4E33-B582-AD1A780E7C1A"/>
+</associations>
+</Column>
+<Column name="LINE_ITEM_ID" id="582F9A0D-1CE5-611B-E75A-F3912ABC87AA">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ID" id="6A6E433A-569B-8678-7045-043A3A79B1E0">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FE2F13B-2111-4C16-8E29-E8A572743B5B" referredColumn="2DD37EA3-9484-C85C-2883-DE8C334E560F"/>
+</associations>
+</Column>
+<Column name="UNIT_PRICE" id="5499A0DD-B440-BBBF-91AB-A84E545683CC">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>62DB7FED-3F0E-E6D8-5D41-5C030A5743E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="1AB64B60-C07D-86FB-3EF2-1F5FE3760AB9">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32ACB4E0-D815-14AD-9DEF-AB193AF0F87E" name="ORDER_ITEMS_PK">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65AF90CC-5D9F-8837-275D-4B6BE25ADCE3"/>
+<colUsage columnID="582F9A0D-1CE5-611B-E75A-F3912ABC87AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E99BEAE-4CD8-0BC3-17C6-81A11103FDED" name="ORDER_ITEMS_PRODUCT_U">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A6E433A-569B-8678-7045-043A3A79B1E0"/>
+<colUsage columnID="65AF90CC-5D9F-8837-275D-4B6BE25ADCE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81A3C7E6-FFFD-32FF-230F-02AA527F7C7B" name="ORDER_ITEMS_ORDER_ID_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65AF90CC-5D9F-8837-275D-4B6BE25ADCE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDFDFFAE-6A51-45A7-A5B3-8B4A73EE8454" name="ORDER_ITEMS_PRODUCT_ID_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A6E433A-569B-8678-7045-043A3A79B1E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

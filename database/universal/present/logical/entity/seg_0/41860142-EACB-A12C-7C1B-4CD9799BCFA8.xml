@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41860142-EACB-A12C-7C1B-4CD9799BCFA8" name="ХУДОЖЕСТВЕННЫЙ ОБЪЕКТ">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-20 08:29:54 UTC</createdTime>
+<generatorID>9D14D7C9-754E-EFF9-6558-2043C500C420</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ИД предмета хранения" id="812D1B6C-99B0-AF6A-9C0E-006AC456C694">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-20 08:33:06 UTC</createdTime>
+<generatorID>EE637634-9E9C-C8D2-06E0-7E00619AB010</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>F722840B-E3D5-46C1-E100-F18883EDFD53</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД автора" id="D09371EB-DBCD-04B0-9D1C-6304FC64343E">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-20 08:29:54 UTC</createdTime>
+<generatorID>AC7CC41A-E245-FC27-083A-DD01DE0C29F5</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>67815540-1218-F367-14C8-01D92501EF85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД типа худ. объекта" id="77F64F86-BD41-2300-009C-7B62378C80A9">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-20 09:01:11 UTC</createdTime>
+<generatorID>7C75CC48-A9CB-4850-8DA9-D2BEB0C77FAB</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>2F0BF427-12FA-703C-F177-7F03A3C1B450</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Год создания" id="5BB8E2AA-4EE7-A62A-B6B9-2EFFC283E636">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-20 10:22:18 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Жанр" id="00D83440-142D-6EC9-3384-1F38702D0B4C">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-20 11:21:56 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70747737-6398-197E-8480-3561EFAE93AC" name="ARTISTIC OBJECT PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-20 08:29:54 UTC</createdTime>
+<generatorID>AB99A788-9D2F-1708-44EE-C91233B99C67</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>812D1B6C-99B0-AF6A-9C0E-006AC456C694</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

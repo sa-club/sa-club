@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="947E9898-B705-D0ED-F5B2-086A8FC73801" name="DB_OBJECT">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:18:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Учитываемый в БД объект]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A506343D-50B6-B05A-A46F-97804E36F35E">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:19:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DB_OBJECT_TYPE_ID" id="DD066263-21A1-A4A6-7FA2-8A2F70C325FE">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:21:04 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C78E803-A3E0-2509-7652-8DDA6F749F5E" referredColumn="7A9FAE36-D18D-5CE6-8D31-FF3C8B310248"/>
+</associations>
+</Column>
+<Column name="DB_OBJECT_STATUS_ID" id="D3CB5820-5AA8-41FB-B121-2A0CF683D720">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:23:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D15D2CD-1DEA-F5F2-B213-318DCF8B8C71" referredColumn="8D6EF1B9-7A96-A1A5-0042-600405B69B4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F4BDF51-DF5B-2B29-5880-74DD56FAF96E" name="DB_OBJECT_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:19:29 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A506343D-50B6-B05A-A46F-97804E36F35E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4687CF70-9E2A-085B-BABF-9169B96C703E" name="DB_OBJECT_TYPE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:21:04 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD066263-21A1-A4A6-7FA2-8A2F70C325FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EDD3AA9-C47F-C392-8B52-7FD8B1B876B9" name="DB_OBJECT_STATUS_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:23:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3CB5820-5AA8-41FB-B121-2A0CF683D720"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

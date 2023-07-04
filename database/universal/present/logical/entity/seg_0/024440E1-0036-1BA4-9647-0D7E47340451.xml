@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="024440E1-0036-1BA4-9647-0D7E47340451" name="STORES">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>055E3C23-2916-F63E-3273-DC2FC323073A</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="STORE ID" id="AB64F0CB-96F4-6E22-5522-A1DC3DCEB7B9">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>4C898E03-A0BC-3407-4F96-47FA348BBBC6</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STORE NAME" id="DB90D645-46E5-707B-C983-B89FE539C5FB">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>C5002B73-709B-3862-DC3E-7075A4918F7A</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E07A6B15-07A2-5F5B-5A59-1387623A2D4C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEB ADDRESS" id="5B460061-565B-F021-3E9E-39606E520A8F">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>C7373FAD-B5CF-D270-32FD-11A0343FDE06</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>63433957-CCD1-040F-B907-E675C1D7F247</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PHYSICAL ADDRESS" id="AA8CA359-C1EB-9D04-751A-A642C270EA90">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>608D5B18-A896-1B51-E87D-3F0AC23AD4A3</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35DDB3A0-5CB9-0303-C257-D501B78B666A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LATITUDE" id="0F908215-EEF5-F838-FD8A-960791DE3FE0">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>D7BCB112-F9AB-A66F-1441-7C36C97CB684</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LONGITUDE" id="5CCD6AC8-9627-1780-4787-5E49E45BB14D">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>BAD08445-5E30-94D4-E9C3-F558E08B1035</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGO" id="271BDED2-A10B-B0DC-EB6B-DEF5A219C204">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>E94C6D03-D44F-79A0-7E7B-FB665D9342E1</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>B9D6DD8F-A7C4-8D6E-9F95-DEF2458EF888</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGO MIME TYPE" id="9C8103AD-4E4B-106D-7A51-1DA8F6931866">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>9E502E71-FAD8-4265-FC4D-E5A37A0F74CD</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35DDB3A0-5CB9-0303-C257-D501B78B666A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGO FILENAME" id="B80B0005-F0D9-9F20-422F-94FE15CD3BC5">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>5D37EBF5-D51C-9953-2713-80A5BA4ED283</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35DDB3A0-5CB9-0303-C257-D501B78B666A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGO CHARSET" id="897E507F-EACB-AED1-AF36-A4C1B82C959F">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>DE420063-3D0B-CEE4-8301-2734D3E23472</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35DDB3A0-5CB9-0303-C257-D501B78B666A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGO LAST UPDATED" id="841B9D2F-FC17-32E3-B910-7CFE0A11CAEB">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>F692550F-B8B9-918A-0F16-02E8277B2C1B</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D1FA6A76-3DB1-721C-BF36-1E0025EC9FA5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FBCB6AE1-8CA5-C986-DB3A-21E486981CE6" name="STORES PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>0C911C3A-6E97-462C-2DF1-8F9BDA3DF85B</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB64F0CB-96F4-6E22-5522-A1DC3DCEB7B9</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D789F186-352C-2CF4-99CF-D09AB15A7464" name="STORE NAME U">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>F1D01D68-4874-AFDE-9DE0-4A27E2410033</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>DB90D645-46E5-707B-C983-B89FE539C5FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

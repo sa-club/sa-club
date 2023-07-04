@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89D047C7-B845-9FA8-E657-932358F17D49" name="KEY_SKILLS">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:44:48 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="34D5EE30-5F5D-39AE-ED01-3FCCB616348E">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:45:08 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VACANCY_ID" id="279DAA8D-91B1-8854-DAD5-003B99FEC6DA">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:45:27 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06EDAA7A-977A-BC29-55B3-1F1489C973B2" referredColumn="BA55F1EC-49F0-9B10-D6CB-81BE1DA0A175"/>
+</associations>
+</Column>
+<Column name="KEY_SKILL_ID" id="CC9EB9D8-801F-6E0F-49DF-4319A5978D89">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:46:39 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D345B6EC-0A36-C568-4480-B1071966641F" referredColumn="B33E6B1E-1C26-7BAB-4369-9E558E9DEBAE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF3A3DA7-8A64-8F75-B00F-21E8422C896F" name="KEY_SKILLS_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:45:08 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34D5EE30-5F5D-39AE-ED01-3FCCB616348E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F1BDC39-3DC0-9ABD-2F8A-C418D5074BB7" name="KEY_SKILLS_VACANCY_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:45:27 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="279DAA8D-91B1-8854-DAD5-003B99FEC6DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B785406-E9C2-5C33-3782-810201A0498A" name="KEY_SKILLS_KEY_SKILL_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:46:39 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC9EB9D8-801F-6E0F-49DF-4319A5978D89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

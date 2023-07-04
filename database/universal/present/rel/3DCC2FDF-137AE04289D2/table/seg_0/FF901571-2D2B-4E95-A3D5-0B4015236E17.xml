@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF901571-2D2B-4E95-A3D5-0B4015236E17" name="ФИЗИЧЕСКОЕ ЛИЦО">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:34:42 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД" id="6A790BE5-1376-D224-B881-E24F46897E68">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:34 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ФИО" id="66141890-C5C4-25C4-9810-3B90CA4FCC33">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:34 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Дата рождения" id="9DF87211-200A-30F1-6F64-09FE86DECED1">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:34 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="741D0E27-DEE7-DA40-1844-D0B0BE46DBAC" name="Владелец_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:34 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A790BE5-1376-D224-B881-E24F46897E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

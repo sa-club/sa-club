@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDERS_CUSTOMER_ID_FK" directorySegmentName="seg_0" id="ADDEA44B-55BE-9FED-184C-CEA1B34F7EC1">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>EFF60E88-76FA-A3FA-237D-57B497D0AE84</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<sourcePk>BDD470E7-5966-5E59-37E6-524A36FFA8D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D2392882-EE89-64F4-81FF-8B76747BAF4C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16F28C8A-03D3-F6BB-A567-798158784B85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

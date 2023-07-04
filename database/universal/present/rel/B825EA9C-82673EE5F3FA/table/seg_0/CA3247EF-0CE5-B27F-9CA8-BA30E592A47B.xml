@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA3247EF-0CE5-B27F-9CA8-BA30E592A47B" name="DB_OBJECT_TYPE_ATTR_TYPE">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:29:00 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E8C74EC4-C9AE-E77B-FA98-9C0E76C3AFF5">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:29:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTR_TYPE_NAME" id="A8C36373-6525-2F03-D87C-109DF6EEFE12">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:29:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование типа атрибута]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13EC58D1-00B4-E81B-20D6-593877B273DE" name="DB_OBJECT_TYPE_ATTR_TYPE_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:29:00 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8C74EC4-C9AE-E77B-FA98-9C0E76C3AFF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

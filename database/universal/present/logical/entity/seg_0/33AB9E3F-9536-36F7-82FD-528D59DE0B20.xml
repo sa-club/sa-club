@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33AB9E3F-9536-36F7-82FD-528D59DE0B20" name="ОБЪЕКТ ПРЕДМЕТНОЙ ОБЛАСТИ ">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Учитываемый в БД объект]]></commentInRDBMS>
+<generatorID>947E9898-B705-D0ED-F5B2-086A8FC73801</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ИД" id="37A5ACE2-4279-5A56-35B5-F6F2DD48F8EF">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<generatorID>A506343D-50B6-B05A-A46F-97804E36F35E</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД типа объекта" id="BFD945DC-6163-925D-D5CF-E5D97E507036">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<generatorID>A336646F-43AD-491C-7239-78F6627AFD39</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>1524BEBF-7F1A-E801-F76F-A9600728C88A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД статуса объекта" id="37B204BE-B220-97BB-FE5B-2C4B2144EAD1">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<generatorID>1EF78832-09B0-D137-BAFE-3D2DE48C8B9B</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>11B69240-E5AA-C64F-C5FE-D6B9A34BB6DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6246912C-0C95-842C-5AAE-1B7F8D19A3D7" name="DB OBJECT PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<generatorID>9F4BDF51-DF5B-2B29-5880-74DD56FAF96E</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37A5ACE2-4279-5A56-35B5-F6F2DD48F8EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

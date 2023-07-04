@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C2D2070-CBC3-82DB-4241-2E15D580012E" name="PRODUCTS">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="2DD37EA3-9484-C85C-2883-DE8C334E560F">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_NAME" id="A9B4AEC2-320A-B058-A238-451DA460FCA0">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E07A6B15-07A2-5F5B-5A59-1387623A2D4C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_PRICE" id="AA7C3BF5-BF4B-8D6D-C916-2675784AAF6A">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>62DB7FED-3F0E-E6D8-5D41-5C030A5743E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_DETAILS" id="71B4A8FF-A061-3B83-49A6-46BAA5A3D46F">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>B9D6DD8F-A7C4-8D6E-9F95-DEF2458EF888</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_IMAGE" id="05641BFB-7729-9C2F-69D0-4A58B874178D">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>B9D6DD8F-A7C4-8D6E-9F95-DEF2458EF888</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGE_MIME_TYPE" id="7808CC13-ED36-4872-1ADF-643BC7E407B8">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35DDB3A0-5CB9-0303-C257-D501B78B666A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGE_FILENAME" id="7C626D86-AE78-F9C0-C675-BFB72104B3AE">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35DDB3A0-5CB9-0303-C257-D501B78B666A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGE_CHARSET" id="C733F002-EDC8-3CAF-04D9-65EA68B27275">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>35DDB3A0-5CB9-0303-C257-D501B78B666A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGE_LAST_UPDATED" id="F79FA9A6-9C34-18CA-E23B-73BD0AC5B1E1">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D1FA6A76-3DB1-721C-BF36-1E0025EC9FA5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7228D0E7-CFB1-8C19-D09B-DC6FA91FF7A0" name="PRODUCTS_PK">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD37EA3-9484-C85C-2883-DE8C334E560F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="PRODUCT_JSON_C" directorySegmentName="seg_0" id="A73D48B8-7255-6520-816A-D9C2A5E1D369">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<rule><![CDATA[product_details is json]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

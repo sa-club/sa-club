@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2DB1280-12B4-C6DD-B406-B61196D5E5B8" containerWithKeyObject="863B85EB-4CAF-247C-A5A0-BFD0447C546C" localFKIndex="7C3EBC1A-0DCD-5634-D27C-C0D089DC5791" name="LANGUAGES_VACANCY_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:20:15 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<referredTableLongName>VACANCY</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FB5AA729-E638-82FC-6911-2DAA86A5D520</referredTableID>
+<keyObject>491DC7A9-A995-FE31-0DB3-6FA5B18E75D1</keyObject>
+<referredKeyID>491DC7A9-A995-FE31-0DB3-6FA5B18E75D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

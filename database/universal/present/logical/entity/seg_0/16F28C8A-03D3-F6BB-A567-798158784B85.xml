@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16F28C8A-03D3-F6BB-A567-798158784B85" name="ORDERS">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>603B7B5D-26EE-0D31-9AB5-517B285887A7</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ORDER ID" id="78934675-7675-D522-3A4C-44BDB148AD02">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>DD6E8B51-301E-4E33-B582-AD1A780E7C1A</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER DATETIME" id="68FAB0DC-87C7-2F6C-22BD-84EBB5BEB16E">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>69F6022D-7F22-F9AF-C22D-1954226CB84B</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>8252A0F0-E1CC-7185-CB9B-08EAFEE67C3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOMER ID" id="8A979D73-B3B7-95F4-53B8-322295E67D10">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>ADDEA44B-55BE-9FED-184C-CEA1B34F7EC1</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>6811D275-1AFD-6501-233A-E6D9EA000D74</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDER STATUS" id="9BD11A3F-A968-7179-25C4-992E846666B8">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>1A4F7901-6896-4C12-415A-20CE0D0AFA78</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>ACC141B2-7CFA-8D00-9B4B-ABD00C7D41E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STORE ID" id="A7CD5293-BC04-619C-5150-695EF671F226">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>549B2CE7-3D4C-CA16-6E0E-E54768ED45E0</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>AB64F0CB-96F4-6E22-5522-A1DC3DCEB7B9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBFB5AEB-F73A-828C-59FD-57523C7E2B1C" name="ORDERS PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-11 07:25:42 UTC</createdTime>
+<generatorID>1F6011C4-D658-786C-55C3-0AAA79313F4A</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78934675-7675-D522-3A4C-44BDB148AD02</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

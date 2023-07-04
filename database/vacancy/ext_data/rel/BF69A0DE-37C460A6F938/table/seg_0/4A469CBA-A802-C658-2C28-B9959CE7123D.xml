@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A469CBA-A802-C658-2C28-B9959CE7123D" name="METRO_STATION">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:01:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="533B38C2-3B59-695E-7E28-29AE952B1757">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:01:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METRO_STATION_NAME" id="332D01DA-3E38-B8BC-E4CB-FF1211CF14D6">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:01:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METRO_LINE_ID" id="243FE133-AD8B-7595-5F89-C7B158D749C1">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:03:24 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88F85734-8568-A8F6-27B6-9A3A66763A19" referredColumn="7AFE65FD-39E0-215B-802C-362C060EE274"/>
+</associations>
+</Column>
+<Column name="LAT" id="5027005B-37FF-7F9F-90C3-998289D64F1E">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:04:43 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LNG" id="31C71FF9-0995-6698-D66A-01917693A117">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:04:43 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6744F16D-A3E8-299D-2715-2E06DA1D8B77" name="METRO_STATION_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:01:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="533B38C2-3B59-695E-7E28-29AE952B1757"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C76A88B8-7C31-ACB2-0706-C13DF6D82D3D" name="METRO_STATION_METRO_LINE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:03:24 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="243FE133-AD8B-7595-5F89-C7B158D749C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

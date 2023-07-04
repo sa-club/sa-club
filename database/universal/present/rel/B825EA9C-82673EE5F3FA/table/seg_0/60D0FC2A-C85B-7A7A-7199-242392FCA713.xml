@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60D0FC2A-C85B-7A7A-7199-242392FCA713" name="DB_OBJECT_TYPE_ATTR">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:25:16 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9B7D2893-99DF-FDF3-1482-2430F087EC50">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:26:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTR_NAME" id="ADA4101B-9E0D-775D-4EFC-43A17F6D9421">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:26:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование атрибута]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DB_OBJECT_TYPE_ID" id="1C916B1C-2A09-1106-91FE-93D58BE192A1">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:27:29 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0446ACD3-87FB-9F61-B35D-88B8713ED52E" referredColumn="7A9FAE36-D18D-5CE6-8D31-FF3C8B310248"/>
+</associations>
+</Column>
+<Column name="DB_OBJECT_TYPE_ATTR_TYPE_ID" id="9DB81421-04AA-C5B2-06EC-1A18E46EA83F">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:29:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[ИД типа атрибута]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="050B5320-1F47-D3B6-1DFE-B004CC902C65" referredColumn="E8C74EC4-C9AE-E77B-FA98-9C0E76C3AFF5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A5CD6EC-8290-F9F7-A721-DD975D634FE4" name="DB_OBJECT_TYPE_ATTR_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:27:13 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B7D2893-99DF-FDF3-1482-2430F087EC50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97DED301-41EE-4F0A-140D-E9CB8C3BC585" name="DB_OBJECT_TYPE_ATTRIBUTE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:27:29 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C916B1C-2A09-1106-91FE-93D58BE192A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9094E1DA-0231-EAB8-AB3B-E25065A82A65" name="DB_OBJECT_TYPE_ATTR_TYPE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:29:54 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DB81421-04AA-C5B2-06EC-1A18E46EA83F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

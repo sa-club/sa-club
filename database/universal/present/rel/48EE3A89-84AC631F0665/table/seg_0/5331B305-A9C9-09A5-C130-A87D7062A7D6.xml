@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5331B305-A9C9-09A5-C130-A87D7062A7D6" name="СТАТУС ОБЪЕКТА">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:15:43 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД" id="1DCE510E-97B6-4B14-8213-0E2B371592C2">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:15:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Наименование статуса" id="CD0E289B-78C5-91CF-1B93-C61D73D44989">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:15:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование типа]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5949D9FB-01A7-E0F9-4A67-046E71E4868F" name="SUBJECT_TYPEv1_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:15:43 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DCE510E-97B6-4B14-8213-0E2B371592C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

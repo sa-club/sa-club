@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7741A313-9166-EEE7-FE74-0B7B77555E0B" name="DB_OBJECT_TYPE">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:19:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Типы объектов]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7A9FAE36-D18D-5CE6-8D31-FF3C8B310248">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:20:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_NAME" id="875E932C-F809-4F5E-6FC7-DAAF98C9C663">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:20:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование типа объекта]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69E259FA-2ABF-C27A-2596-D836B13A125A" name="DB_OBJECT_TYPE_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:20:53 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A9FAE36-D18D-5CE6-8D31-FF3C8B310248"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAA832AA-CD93-8B6B-1768-90C6B5CFA0E0" name="DOC_STATUSES">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:03:15 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="66D67D00-2F70-1079-3CF9-129C3C8A6600">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:03:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_DOC_ID" id="CEB1A9E9-198A-9DDA-C681-E9254AD0E55A">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:04:02 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6548E64D-1030-B5B7-13C5-927CD6D1C0E0" referredColumn="C75E3F4D-6AAA-C84C-E7C1-34520CF7BC26"/>
+</associations>
+</Column>
+<Column name="DOC_STATUS_ID" id="0B87F82A-99AA-98D9-C109-369994BD2E77">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:04:07 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BE5A390-7BEA-9112-712B-7B948E491365" referredColumn="08DBA6DA-3F5F-A830-62CA-D68185183DFE"/>
+</associations>
+</Column>
+<Column name="STATUS_DATE_TIME" id="35CB3E43-933E-BD79-CCB7-C2188859A08B">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:04:57 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64870301-63E6-0EC3-67E9-32F4FB13A3E2" name="DOC_STATUSES_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:03:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66D67D00-2F70-1079-3CF9-129C3C8A6600"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="938E0120-64FA-AB76-C16A-F368A0E4E522" name="DOC_STATUSES_SOURCE_DOC_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:04:02 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEB1A9E9-198A-9DDA-C681-E9254AD0E55A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7193C2DC-DED6-71DA-748E-DA0D10115465" name="DOC_STATUSES_DOC_STATUS_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:04:07 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B87F82A-99AA-98D9-C109-369994BD2E77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

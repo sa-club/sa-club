@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31CC12D0-0C82-BDAC-002A-7258FE0DA9E0" name="SPECIALIZATIONS">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:10:04 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DF5442EE-687F-DE73-6AB8-BBB1B8E6B7D8">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:10:24 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VACANCY_ID" id="B36B94E2-0C76-B115-D45C-E93BDD180759">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:10:28 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4AA8340-4B42-CA89-90A2-91D1728D23C8" referredColumn="BA55F1EC-49F0-9B10-D6CB-81BE1DA0A175"/>
+</associations>
+</Column>
+<Column name="SPECIALIZATION_ID" id="6A5C960B-B93D-D4D4-6869-F22D1A24CD99">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:11:38 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47793A2E-E628-C486-6149-0482F69A7558" referredColumn="FD70E1F0-8B82-7E6B-06DA-1F00BA8A5785"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E8510A0-C39D-EF18-79D8-E914AACD52E1" name="SPECIALIZATIONS_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:10:24 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF5442EE-687F-DE73-6AB8-BBB1B8E6B7D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2634120-DCC4-FEF0-A5A3-BA411336A607" name="SPECIALIZATIONS_VACANCY_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:10:28 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B36B94E2-0C76-B115-D45C-E93BDD180759"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1C474B9-4DF2-D98C-CE3A-93B3EBFD1E66" name="SPECIALIZATIONS_SPECIALIZATION_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:11:38 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5C960B-B93D-D4D4-6869-F22D1A24CD99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="present" id="63719C08-1B6F-5BFD-C961-AD4F4B38B372" version="3.5">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:14:31 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>63719C08-1B6F-5BFD-C961-AD4F4B38B372</designId>
+</OSDM_Design>

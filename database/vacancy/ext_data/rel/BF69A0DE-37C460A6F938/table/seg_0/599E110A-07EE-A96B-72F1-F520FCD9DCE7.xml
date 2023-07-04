@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="599E110A-07EE-A96B-72F1-F520FCD9DCE7" name="PHONES">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:15:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E7F714F7-99C3-9445-4B5D-06DD60A8D900">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:16:07 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE_NUMBER" id="92422E1F-75C2-777B-41C9-39F7FF2A3471">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:16:38 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTACT_ID" id="B458A278-A4DE-D796-32E5-C6A5656D188E">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:16:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69F28CD0-9B43-5CC1-C0D5-0FD8D8C9F341" referredColumn="60B5010E-1C67-E820-D4C1-7D0CA5DAAE35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0DCCFB6-2143-B576-2791-36BCAE8A8C80" name="PHONES_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:16:07 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7F714F7-99C3-9445-4B5D-06DD60A8D900"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1849FE39-5F03-02DA-7875-AEC046BCA7BB" name="PHONES_CONTACT_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:16:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B458A278-A4DE-D796-32E5-C6A5656D188E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

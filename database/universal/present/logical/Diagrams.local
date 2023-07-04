@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="sub_view" objectID="02A07B90-5B39-5474-CA1D-5A20978E5A77" name="Logical - SubView_1v1" visible="true"/>
+   <object objectType="sub_view" objectID="14B17CA5-993D-334B-585F-AEB659264414" name="Финотчет - лента" visible="true"/>
+   <object objectType="sub_view" objectID="18189D0D-881F-2560-2B7C-10959DC45856" name="APEX - заказчики" visible="true"/>
+   <object objectType="main_view" objectID="2BA84CD7-023A-5E49-EB0A-1FDB23DBD8FC" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="2DAD19B0-EA28-FD06-D81B-D31EF4BBBEE8" name="Заготовки" visible="true"/>
+   <object objectType="sub_view" objectID="6E71A41C-62F7-3863-629E-7EAA0FFAE59F" name="Музей" visible="true"/>
+   <object objectType="sub_view" objectID="90F2941D-11BF-A5D6-CC54-4263868CC058" name="Финотчет - простыня" visible="true"/>
+   <object objectType="sub_view" objectID="9A7615EC-E500-ABC4-6E17-A0058C187AC8" name="Универсальная 2" visible="true"/>
+   <object objectType="sub_view" objectID="C6BD9DE5-08F9-82A0-F70D-DED069B9F592" name="Универсальная" visible="true"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

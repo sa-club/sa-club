@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_98" directorySegmentName="seg_1" id="BCF3084B-6AB2-A0A7-281F-7617D65FDF27">
+<createdBy>Крот</createdBy>
+<createdTime>2022-11-01 07:16:04 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<sourcePk>C8D59B2B-F2BD-4F50-BFB7-BAB8C0D59523</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B204FFD9-9FD2-AB86-276C-201688AFC2C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A1683952-FE08-EE2B-20D4-5C26A4298918</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

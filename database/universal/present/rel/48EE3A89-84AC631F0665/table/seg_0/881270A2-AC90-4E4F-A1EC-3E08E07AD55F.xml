@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="881270A2-AC90-4E4F-A1EC-3E08E07AD55F" name="SCULPTURE">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 14:34:52 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AO_INVENTORY_ITEM_ID" id="D25F783A-F733-52E4-9F6D-A3B1AF699B47">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 14:34:52 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6F41A26-C2C1-59F5-275C-BAC9DF42ABC0" referredColumn="5D31B298-FF05-6EE7-5FA1-532FF269C3F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="264D95EC-AB0B-2B79-BAED-0C03DD7F13BA" name="PICTUREv1_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 14:34:52 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D25F783A-F733-52E4-9F6D-A3B1AF699B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A040B0A-FC2F-3CE6-7C53-F8ECC65A2CA1" name="PICTUREv1_ARTISTIC_OBJECT_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 14:34:52 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D25F783A-F733-52E4-9F6D-A3B1AF699B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

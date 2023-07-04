@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="sub_view" objectID="15B2B12F-8AC2-21FA-8B5C-CADC18B309B0" name="Вакансии" visible="true"/>
+   <object objectType="sub_view" objectID="437DFFB1-2B4F-9416-48E3-BD4CB54E43DF" name="Технологическая область" visible="true"/>
+   <object objectType="main_view" objectID="FEA6B79D-58FE-C6E8-FA27-D769257FF27F" name="ВнешниеИсточники" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

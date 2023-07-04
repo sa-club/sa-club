@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB5AA729-E638-82FC-6911-2DAA86A5D520" name="VACANCY">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:38:35 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BA55F1EC-49F0-9B10-D6CB-81BE1DA0A175">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:39:19 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_DOC_ID" id="D9DAE359-EDF8-6F5B-0C40-26D6DF9EC610">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:39:57 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B942C24B-50EB-FCCA-779B-2D6C5FFA64E5" referredColumn="C75E3F4D-6AAA-C84C-E7C1-34520CF7BC26"/>
+</associations>
+</Column>
+<Column name="EXTERNAL_ID" id="08935B8B-72B8-3344-B406-ACF71F6D5928">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:42:47 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VACANCY_NAME" id="FD475F7D-8D6D-EDF4-23DB-7459D1ACD91A">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:07:45 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="637DFFFF-61E5-2715-5CA7-D6C0FD7EB6EC">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:43:45 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCHEDULE_ID" id="A5F24B25-53E5-8F80-6912-7D13B57B641B">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:49:39 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C49ABBD-837D-3345-B352-EDB8B2BD12F1" referredColumn="3D4BCBBD-2561-228C-6C2D-35785E5D2EF7"/>
+</associations>
+</Column>
+<Column name="ACCEPT_HANDICAPPED" id="F2EFD01C-D061-954A-98F3-EA8B519EAADC">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:50:40 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPERIENCE_ID" id="DC6F8B13-1E86-BD85-247B-FB77BDF9DD40">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:51:23 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="977F49F2-6845-CEC9-8D78-4951327C87E3" referredColumn="21A35FD6-B0D3-90AE-35A6-FB84D5C9E375"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="491DC7A9-A995-FE31-0DB3-6FA5B18E75D1" name="VACANCY_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:39:19 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA55F1EC-49F0-9B10-D6CB-81BE1DA0A175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9676E5E0-ECCC-9BC4-1580-0926070F2ACB" name="VACANCY_SOURCE_DOC_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:39:57 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DAE359-EDF8-6F5B-0C40-26D6DF9EC610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B18BCAF5-D47C-4D3B-CF74-0FA6AED3D746" name="VACANCY_SCHEDULE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:49:39 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F24B25-53E5-8F80-6912-7D13B57B641B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="986572BA-2673-939E-6450-DE65570DAAD4" name="VACANCY_EXPERIENCE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:51:23 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC6F8B13-1E86-BD85-247B-FB77BDF9DD40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

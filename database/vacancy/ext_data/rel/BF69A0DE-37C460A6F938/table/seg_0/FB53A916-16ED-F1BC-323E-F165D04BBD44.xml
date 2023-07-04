@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB53A916-16ED-F1BC-323E-F165D04BBD44" name="DOC_STATUS">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:02:19 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="08DBA6DA-3F5F-A830-62CA-D68185183DFE">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:02:53 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_NAME" id="8FA401A9-C13A-7BD3-78B6-F132265AC218">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:02:53 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EEE63B3-052F-C0DB-61C0-022530DA60C4" name="DOC_STATUS_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 16:02:53 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08DBA6DA-3F5F-A830-62CA-D68185183DFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

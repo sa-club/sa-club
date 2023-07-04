@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ext_data" id="00144964-63E5-53D3-5BCD-134C9C6CE482" version="3.5">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 09:40:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>00144964-63E5-53D3-5BCD-134C9C6CE482</designId>
+</OSDM_Design>

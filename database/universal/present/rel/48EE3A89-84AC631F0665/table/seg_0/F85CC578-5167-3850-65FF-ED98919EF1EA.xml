@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F85CC578-5167-3850-65FF-ED98919EF1EA" name="OTHER_OBJECT">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:57:37 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ITEM_ID" id="0FA478E3-6431-68EF-371F-645C3BB5BD98">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:57:37 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E5BABDF-C00C-C9DF-630E-B2BD8BD3B27E" referredColumn="FD30FB7B-577D-6FF4-89D5-DCD4E3F1A694"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFEE301B-BBB7-0035-9B7A-35067B526D73" name="COINv1_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:57:37 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FA478E3-6431-68EF-371F-645C3BB5BD98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F36863-0D95-4238-4E44-94FEE95C2570" name="COINv1_SUBJECT_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:57:37 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FA478E3-6431-68EF-371F-645C3BB5BD98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

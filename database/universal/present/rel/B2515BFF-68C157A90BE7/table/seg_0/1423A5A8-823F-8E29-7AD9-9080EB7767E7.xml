@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1423A5A8-823F-8E29-7AD9-9080EB7767E7" name="CUSTOMERS">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMER_ID" id="A82DD21A-5A3C-1E3D-A98A-C7053E627130">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FULL_NAME" id="9AC97EC0-D29D-4DD4-E86E-EDAF379C2A2D">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E07A6B15-07A2-5F5B-5A59-1387623A2D4C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL_ADDRESS" id="438BA128-FFDA-5542-63B8-25D257FA3DE7">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E07A6B15-07A2-5F5B-5A59-1387623A2D4C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D08E973-BC37-33A6-BF63-0E96B2C5ED83" name="CUSTOMERS_PK">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82DD21A-5A3C-1E3D-A98A-C7053E627130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E62E2F60-BA97-0AFD-51D3-BEEEB86745C4" name="CUSTOMERS_EMAIL_U">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="438BA128-FFDA-5542-63B8-25D257FA3DE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="858ECD4B-C00E-C704-0DFE-20609C0BC44A" name="CUSTOMERS_NAME_I">
+<sourceDDLFile>v1.sql</sourceDDLFile>
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:16:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AC97EC0-D29D-4DD4-E86E-EDAF379C2A2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDAC177D-261F-A9EE-E276-0090D4D78D24" name="SPECIALIZATION">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:11:04 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="FD70E1F0-8B82-7E6B-06DA-1F00BA8A5785">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:11:31 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIALIZATION_NAME" id="C61F5C54-3CC6-D841-5220-E27FF78882AC">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:11:31 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROF_AREA_ID" id="7E8F263B-F38D-05FF-B9BF-1763E10EFC19">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:12:50 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1614352-E987-2664-C12A-FC8C27905C34" referredColumn="0FB59073-6F71-5AFD-605A-94FE2B74AB22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75C7634E-7647-1069-72B0-0E7B7175A93E" name="SPECIALIZATION_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:11:31 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD70E1F0-8B82-7E6B-06DA-1F00BA8A5785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="610B6783-3A7A-B8BE-DCAA-091B3DBDE26E" name="SPECIALIZATION_PROF_AREA_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:12:50 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E8F263B-F38D-05FF-B9BF-1763E10EFC19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

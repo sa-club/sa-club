@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9858574C-FB3D-59B7-3D7A-88DEEDC8BE67" name="MUSEUM">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:13:04 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BCBBE19E-D932-DBE1-A2B6-8BBA6DDA6274">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:13:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUSEUM_NAME" id="A582F68A-BA57-F348-80E0-AC8D1CF4BCBC">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:13:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование типа]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A6D2086-66AE-E758-C860-399CB794A4B1" name="MUSEUM_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:13:42 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCBBE19E-D932-DBE1-A2B6-8BBA6DDA6274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="v1_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_512" id="35DDB3A0-5CB9-0303-C257-D501B78B666A">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>512</dataTypeSize>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_2_0" id="62DB7FED-3F0E-E6D8-5D41-5C030A5743E0">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="63433957-CCD1-040F-B907-E675C1D7F247">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_6_0_0" id="8252A0F0-E1CC-7185-CB9B-08EAFEE67C3B">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT015</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="ACC141B2-7CFA-8D00-9B4B-ABD00C7D41E4">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="BLOB_0_0_0" id="B9D6DD8F-A7C4-8D6E-9F95-DEF2458EF888">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="D1FA6A76-3DB1-721C-BF36-1E0025EC9FA5">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="E07A6B15-07A2-5F5B-5A59-1387623A2D4C">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="E9CDCA88-F17A-8BC5-BE9E-2EFDEA6336F1">
+<createdBy>Крот</createdBy>
+<createdTime>2022-02-02 10:37:14 UTC</createdTime>
+<ownerDesignName>apex_sample</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>v1_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

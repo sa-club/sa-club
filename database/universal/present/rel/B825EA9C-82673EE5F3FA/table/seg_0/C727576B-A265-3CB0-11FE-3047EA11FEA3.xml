@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C727576B-A265-3CB0-11FE-3047EA11FEA3" name="DB_OBJECT_STATUS">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:21:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Статусы объектов. Справочник]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8D6EF1B9-7A96-A1A5-0042-600405B69B4D">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:21:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_NAME" id="DE35AB8F-112C-341A-0606-9E675E9334BB">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:21:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование статуса объекта]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F998167-B4ED-1CD8-4793-1C8E7A77DE3D" name="DB_OBJECT_STATUS_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 06:21:43 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D6EF1B9-7A96-A1A5-0042-600405B69B4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

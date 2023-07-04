@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ_Владелец_FK" directorySegmentName="seg_0" id="58195A55-53C0-1973-6D7F-1A359489B117">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:56:38 UTC</createdTime>
+<generatorID>472C5805-61FC-A4A4-5327-6ADC67CC0A48</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<sourcePk>1CAC83EE-EF0D-92C3-CF5C-89F8673A1CF7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2D640C1-0838-1AF2-F9DD-B6C19CB581A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7630DAA2-F783-9B81-19D8-5431FAD83C9F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EA7D41B-FFE7-96BC-9A66-0A4A8D20C2D3" name="ОТНОШЕНИЕ МЕЖДУ ОБЪЕКТАМИ">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Связь между объектами]]></commentInRDBMS>
+<generatorID>3128C35D-F761-BA48-C4BD-8D1746BD1AAD</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ИД" id="FBBB225A-386D-388E-8488-F414DC682889">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<generatorID>63A9F7C0-A79F-1246-425A-1AAAA482584D</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД объекта-источника" id="BB3BFC9B-D7C4-8908-1FB1-6515EC235D72">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<generatorID>12CAB7B7-DF64-5B32-1829-5985B192EBE3</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>37A5ACE2-4279-5A56-35B5-F6F2DD48F8EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД целевого объекта" id="2C8CF4C8-496C-274F-BB87-1548055C8E72">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[ИД второго объекта в отношении]]></commentInRDBMS>
+<generatorID>0291FCA1-94B8-9EEC-12A1-0E56E145FD19</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>37A5ACE2-4279-5A56-35B5-F6F2DD48F8EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ИД типа отношения" id="DEE7689A-83B1-E709-9A49-0766800C6204">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[ИД первого объекта в отношении]]></commentInRDBMS>
+<generatorID>D910FE2F-55AB-A404-6C94-04F6A22F7CE4</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<referedAttribute>3B140B7F-DDB9-DE0E-1880-6DC1C11D74C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31BCA709-224D-7570-4E11-1ACD5D286B5B" name="DB OBJECT RELATION PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-22 11:32:54 UTC</createdTime>
+<generatorID>211B7DD2-1530-C6CE-4765-7E50A182555A</generatorID>
+<ownerDesignName>present</ownerDesignName>
+<engineerTo>
+<item key="48EE3A89-B50F-09BC-F59D-84AC631F0665" value="true"/>
+<item key="B825EA9C-FC52-B556-84DF-82673EE5F3FA" value="true"/>
+<item key="B2515BFF-3BBE-9F08-0F38-68C157A90BE7" value="true"/>
+<item key="3DCC2FDF-EA93-4A6B-D92D-137AE04289D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBBB225A-386D-388E-8488-F414DC682889</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

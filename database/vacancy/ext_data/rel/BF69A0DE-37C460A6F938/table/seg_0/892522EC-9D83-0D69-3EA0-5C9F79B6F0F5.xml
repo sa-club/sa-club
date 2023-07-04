@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="892522EC-9D83-0D69-3EA0-5C9F79B6F0F5" name="METRO_LINE">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:02:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7AFE65FD-39E0-215B-802C-362C060EE274">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:02:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METRO_LINE_NAME" id="00FEC604-8323-1706-A0A1-DA190B12985C">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:02:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C017D596-0E3F-B437-EE3E-88A57BAC5E12" name="METRO_LINE_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 16:02:44 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AFE65FD-39E0-215B-802C-362C060EE274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

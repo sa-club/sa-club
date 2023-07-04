@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="472C5805-61FC-A4A4-5327-6ADC67CC0A48" containerWithKeyObject="50429E13-A16E-8C6C-D6DF-4875264CD3DB" localFKIndex="52B0B9C0-0D10-C94A-00F2-B427A9FBEA6E" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ_Владелец_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:45 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<referredTableLongName>ФИЗИЧЕСКОЕ ЛИЦО</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF901571-2D2B-4E95-A3D5-0B4015236E17</referredTableID>
+<keyObject>741D0E27-DEE7-DA40-1844-D0B0BE46DBAC</keyObject>
+<referredKeyID>741D0E27-DEE7-DA40-1844-D0B0BE46DBAC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ИД</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

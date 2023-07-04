@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50429E13-A16E-8C6C-D6DF-4875264CD3DB" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:33:06 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД" id="B8333B09-5E6A-8080-F236-617E2E1DC1CC">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:33:53 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Серия" id="CB1A0395-CBE4-C376-D051-0F4DC3D45B55">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:33:53 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Номер" id="092D5B28-66B4-A530-84A6-18A85D371E9D">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:33:53 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Дата выдачи" id="2BD0FF84-6E05-BBDB-0037-6CE9B674A355">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:33:53 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ИД автомобиля" id="63FB0FB6-1944-1E4C-F751-4A52263CCD83">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:37 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35FD6C66-1444-BB2C-75E9-81D4B236C635" referredColumn="F0894FFC-4FEF-9162-BDFB-E854C79FD0C4"/>
+</associations>
+</Column>
+<Column name="ИД владельца" id="4E41EE24-3655-3F89-B87F-C67F680C1BAC">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:45 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="472C5805-61FC-A4A4-5327-6ADC67CC0A48" referredColumn="6A790BE5-1376-D224-B881-E24F46897E68"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0F56BF3-D2AC-4EBE-A70E-95B87D8965A8" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:33:53 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8333B09-5E6A-8080-F236-617E2E1DC1CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17663291-DA26-081E-1522-EF4A7B3769A2" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ_АВТОМОБИЛЬ_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:37 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63FB0FB6-1944-1E4C-F751-4A52263CCD83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52B0B9C0-0D10-C94A-00F2-B427A9FBEA6E" name="СВИДЕТЕЛЬСТВО О РЕГИСТРАЦИИ_Владелец_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:35:45 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E41EE24-3655-3F89-B87F-C67F680C1BAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

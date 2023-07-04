@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0416173-9E79-0356-0EA0-A8CE0DA08723" name="АВТОМОБИЛЬ">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:31:54 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД" id="F0894FFC-4FEF-9162-BDFB-E854C79FD0C4">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:32:30 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Марка" id="5B15F0EE-69B6-5A67-A137-1B38AEA3F953">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:32:30 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Год выпуска" id="0C3846ED-CEE1-A216-C520-75E2108BF954">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:32:30 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Цвет" id="B2585E76-AA89-CD4F-DD39-B3586EA59626">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:32:30 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Рег. номер" id="79A693DF-2CFD-16CC-1343-C4134E331429">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:32:30 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CCE6CFA-5BC0-3DD0-626F-0072BE64576B" name="АВТОМОБИЛЬ_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-10-04 07:32:52 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0894FFC-4FEF-9162-BDFB-E854C79FD0C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

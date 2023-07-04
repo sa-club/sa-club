@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="745B082F-AF14-BCF9-D799-9D138A3B336E" name="COIN">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:36:27 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД объекта хранения" id="9038CAAE-707F-B305-20CE-B9AC35678E2A">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:36:27 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="647B23B3-0D83-1D7B-E687-C48C3BB86C1A" referredColumn="FD30FB7B-577D-6FF4-89D5-DCD4E3F1A694"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D82AFDA-013D-F65C-BE94-11EE676C65AE" name="SCULPTUREv1_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:36:27 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9038CAAE-707F-B305-20CE-B9AC35678E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD79FCCF-4443-205A-9990-4E6667655D9B" name="SCULPTUREv1_SUBJECT_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:36:27 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9038CAAE-707F-B305-20CE-B9AC35678E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

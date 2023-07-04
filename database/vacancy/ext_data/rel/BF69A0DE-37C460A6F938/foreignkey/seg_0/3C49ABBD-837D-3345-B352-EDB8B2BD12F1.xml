@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C49ABBD-837D-3345-B352-EDB8B2BD12F1" containerWithKeyObject="FB5AA729-E638-82FC-6911-2DAA86A5D520" localFKIndex="B18BCAF5-D47C-4D3B-CF74-0FA6AED3D746" name="VACANCY_SCHEDULE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-28 15:49:39 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<referredTableLongName>SCHEDULE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8003596C-1873-B9D4-FFBC-54BE91D3321A</referredTableID>
+<keyObject>47640B71-39C5-4B9B-F099-0EAC7A34300A</keyObject>
+<referredKeyID>47640B71-39C5-4B9B-F099-0EAC7A34300A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BEE4775E-E23D-B390-9E65-B2702DBC1B90" mainViewID="B88EBC3D-474D-8934-F5BE-8238B4A6EF4A">
+<createdBy>Крот</createdBy>
+<createdTime>2023-06-14 09:40:52 UTC</createdTime>
+<ownerDesignName>ext_data</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

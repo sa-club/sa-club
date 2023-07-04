@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3128C35D-F761-BA48-C4BD-8D1746BD1AAD" name="DB_OBJECT_RELATION">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:01:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Связь между объектами]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="63A9F7C0-A79F-1246-425A-1AAAA482584D">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 13:57:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE_DB_OBJECT_ID" id="43E13DED-5E35-25D7-048D-67473FCE5F51">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:02:09 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DB1BF04-2118-DB64-CAB7-5D4F993E9133" referredColumn="A506343D-50B6-B05A-A46F-97804E36F35E"/>
+</associations>
+</Column>
+<Column name="TARGET_DB_OBJECT_ID" id="93CDA561-BA03-307E-30BA-F8CAF4114EA8">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:02:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[ИД второго объекта в отношении]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB0A1DC3-8BDE-E2E6-CBC1-2DC87A32AAD7" referredColumn="A506343D-50B6-B05A-A46F-97804E36F35E"/>
+</associations>
+</Column>
+<Column name="DB_OBJECT_RELATION_TYPE_ID" id="D5B56C32-AD9B-BB60-47E7-CB3B3AC73105">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:05:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[ИД первого объекта в отношении]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9A32FAE-C24C-B7DB-E4AA-A5EAE7F41CF3" referredColumn="0145572A-3929-7FD8-3804-025A86EDA713"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="211B7DD2-1530-C6CE-4765-7E50A182555A" name="DB_OBJECT_RELATION_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 13:57:46 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63A9F7C0-A79F-1246-425A-1AAAA482584D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA409F2D-1215-99A2-4BFD-2C88F00B53A0" name="DB_OBJECT1_RELATION_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:02:09 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E13DED-5E35-25D7-048D-67473FCE5F51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D0FA48D-E027-020B-2B9A-CEC1CB42C9EA" name="DB_OBJECT2_RELATION_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:02:56 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93CDA561-BA03-307E-30BA-F8CAF4114EA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00DEE5E7-BCF2-3E36-EE72-0CDDA2AAA9FD" name="DB_OBJECT_RELATION_ROLE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:05:43 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5B56C32-AD9B-BB60-47E7-CB3B3AC73105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

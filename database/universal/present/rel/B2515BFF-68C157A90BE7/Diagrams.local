@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="DB8630FA-D61C-D4AB-DCCE-D922CD2DD2A9" name="apex_sample" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

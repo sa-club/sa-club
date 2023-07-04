@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E9D3B1B-FD9F-0535-8896-1B7884C6671B" name="ПРЕДМЕТ ХРАНЕНИЯ">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 12:47:49 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД" id="FD30FB7B-577D-6FF4-89D5-DCD4E3F1A694">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 12:48:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ИД типа объекта хранения" id="87D5C3EA-31B6-4D07-CA8F-5740E8014EFB">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 12:51:52 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F588370-7F83-6833-4345-0ECEBCFF6304" referredColumn="8470877A-12DA-420F-536A-4DE2CCE82E71"/>
+</associations>
+</Column>
+<Column name="Регистрационнный номер" id="CED23089-008A-FF17-2037-BDEA9B394B47">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 12:50:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Регистрационный номер]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Дата регистрации" id="721D30A8-33A7-BCE3-4D82-BC4B83AE8492">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:14:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[Дата регистрации]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Наименование объекта" id="B103AED3-7ED5-7C02-B695-153CD505519E">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:14:44 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Описание объекта" id="92D06987-ADF8-6F70-AEDE-B5FABD265603">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:38:46 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ИД музея" id="8884A92A-09F2-FD0A-E57E-90EC78F6B89A">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:14:13 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADBC5511-651B-2573-38AD-5ACE08DB9EF6" referredColumn="BCBBE19E-D932-DBE1-A2B6-8BBA6DDA6274"/>
+</associations>
+</Column>
+<Column name="ИД статуса" id="B7FF8717-7135-F08B-5532-0094F5C5C0EF">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:16:06 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA1453FB-1431-41F7-9CD6-F25A47199C84" referredColumn="1DCE510E-97B6-4B14-8213-0E2B371592C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4531C1E6-E7C4-A3F0-B5BD-20C0E5AB0836" name="SUBJECT_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 12:48:19 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD30FB7B-577D-6FF4-89D5-DCD4E3F1A694"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE130E40-5012-542B-0713-84FABBC65B1D" name="SUBJECT_SUBJECT_TYPE_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 12:51:52 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87D5C3EA-31B6-4D07-CA8F-5740E8014EFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07DB2355-6FF9-CFEF-7296-3C78D30D6CF1" name="SUBJECT_MUSEUM_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:14:13 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8884A92A-09F2-FD0A-E57E-90EC78F6B89A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6ED86F95-35E3-CD34-15F3-C814AAC02665" name="SUBJECT_SUBJECT_STATUS_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:16:06 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7FF8717-7135-F08B-5532-0094F5C5C0EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

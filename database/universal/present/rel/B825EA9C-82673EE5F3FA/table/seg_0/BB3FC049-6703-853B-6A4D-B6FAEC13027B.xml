@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB3FC049-6703-853B-6A4D-B6FAEC13027B" name="DB_OBJECT_RELATION_TYPE">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:03:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Статусы объектов. Справочник]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0145572A-3929-7FD8-3804-025A86EDA713">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:03:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор записи]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FORWARD_RELATION_NAME" id="3523AA5B-9842-B092-42D5-739A8A16DE2A">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:03:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование отношения первого объекта ко второму]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BACKWARD_RELATION_NAME" id="4E33B877-405A-6833-716D-609CE8733229">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:05:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Наименование отношения второго  объекта к первому]]></commentInRDBMS>
+<ownerDesignName>present</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="077C987A-DFED-395A-3A29-5BC818E7E970" name="DB_OBJECT_RELATION_TYPE_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-18 12:03:21 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0145572A-3929-7FD8-3804-025A86EDA713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

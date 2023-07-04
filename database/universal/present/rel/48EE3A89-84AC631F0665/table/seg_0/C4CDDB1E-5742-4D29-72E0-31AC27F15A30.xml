@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4CDDB1E-5742-4D29-72E0-31AC27F15A30" name="GEOLOGICAL_OBJECT">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:19:57 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД объекта хранения" id="283E2474-1A80-4E1F-4A03-AE3C02CD416E">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:19:57 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D5A0017-9554-697F-0D17-28E45C21C435" referredColumn="FD30FB7B-577D-6FF4-89D5-DCD4E3F1A694"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="230F74A2-79B7-C87A-5B44-A4F8651B4183" name="SCULPTURE_PK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:19:57 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="283E2474-1A80-4E1F-4A03-AE3C02CD416E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F729391-4B4C-05DF-D657-610E649DEA0C" name="PICTUREv1_SUBJECT_FK">
+<createdBy>Крот</createdBy>
+<createdTime>2022-09-19 13:19:57 UTC</createdTime>
+<ownerDesignName>present</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="283E2474-1A80-4E1F-4A03-AE3C02CD416E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
