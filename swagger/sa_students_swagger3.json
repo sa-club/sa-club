@@ -1,0 +1,514 @@
+{
+    "openapi":"3.0.2",
+    "info": {
+      "title":"Тест OpenAPI",
+      "version":"1.0"
+    },
+    "servers": [
+       {
+            "url":"https://sa-student.ru/api",
+            "description":"учебный сервер"
+       }
+    ],
+    "paths": {
+        "/students":{
+            "get":{
+                "tags":["Запрос данных"],
+                "summary": "Получение списка студентов",
+                "description": "Метод возвращает список студентов выбранной группы или список из последних двадцати зарегистрированных в системе студентов",
+                "operationId": "getStudents",
+                "parameters": [
+                    {
+                        "name": "groupCode",
+                        "description": "Код учебной группы",
+                        "in": "query",
+                        "required": false,
+                        "schema":{
+                            "type": "string",
+                            "pattern": "[A-Z][AZ]_[0-9][0-9][0-9][0-9]-[0-9][0-9]_[0-9][0-9]",
+                            "example": "SS_NNNN-NN_NN"
+                        }
+                    }                    
+                ],
+                "responses": {
+                    "200":{
+                        "description": "Результат запроса",
+                        "content": {
+                            "application/json":{
+                                "schema":{
+                                    "type":"array" ,
+                                    "items":{
+                                        "type": "object",
+                                        "properties": {
+                                            "id":{
+                                                "type": "integer",
+                                                "description": "ИД записи",
+                                                "minimum": 0,
+                                                "example": "1"
+                                            },
+                                            "studentName":{
+                                                "type": "string",
+                                                "description": "ФИО",
+                                                "example": "Иванов Иван Иванович"
+                                            },
+                                            "birthday":{
+                                                "type": "string",
+                                                "description": "Дата рождения",
+                                                "format": "date",
+                                                "pattern": "(19|20)[0-9][0-9]-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])",
+                                                "example": "2020-12-31"                                                
+                                            },
+                                            "groupCode":{
+                                                "type": "string",
+                                                "description": "Код учебной группы",
+                                                "pattern": "[A-Z][AZ]_[0-9][0-9][0-9][0-9]-[0-9][0-9]_[0-9][0-9]",
+                                                "example": "SA_2021-22_01"
+                                            }    
+                                        }
+                                    }
+                                }
+                            }                            
+                        }
+                    } 
+                }
+            },
+            "post":{
+                "tags":["Изменение данных"],
+                "summary": "Добавление записи",
+                "description": "Метод создаёт новую учётную запись студента в системе",
+                "operationId": "postStudent",
+                "parameters": [                                  
+                ],
+                "requestBody":{
+                    "required": true,
+                    "content": {
+                        "multipart/form-data":{
+                            "schema":{
+                                "type": "object",
+                                "properties": {
+                                        "lastName":{
+                                            "type": "string",
+                                            "description": "Фамилия",
+                                            "example": "Иванов"                                        
+                                        },
+                                        "firstName":{
+                                            "type": "string",
+                                            "description": "Имя",
+                                            "example": "Иван"
+                                        },
+                                        "middleName":{
+                                            "type": "string",
+                                            "description": "Отчество",
+                                            "example": "Иванович"
+                                        },
+                                        "birthday": {
+                                            "type": "string",
+                                            "description": "Дата рождения",
+                                            "example": "2020-12-31",
+                                            "format": "date",
+                                            "pattern": "(19|20)[0-9][0-9]-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "responses": {
+                        "201":{
+                            "description": "Запись создана",
+                            "content": {
+                                "application/json":{
+                                    "schema":{
+                                        "type":"object" ,
+                                        "properties": {
+                                            "status":{
+                                                "type": "boolean",
+                                                "description": "Статус",
+                                                "example": "true"
+                                            },
+                                            "studentId":{
+                                                "type": "number",
+                                                "description": "ИД студента",
+                                                "example": "101"
+                                            }        
+                                        }
+                                    }
+                                }                            
+                            }
+                        },
+                        "400":{
+                            "description": "Запись не создана",
+                            "content": {
+                                "application/json":{
+                                    "schema":{
+                                        "type":"object" ,
+                                        "properties": {
+                                            "status":{
+                                                "type": "boolean",
+                                                "description": "Статус",
+                                                "example": "false"
+                                            },
+                                            "message":{
+                                                "type": "string",
+                                                "description": "Сообщение",
+                                                "example": "Запись не создана",
+                                                "enum": ["Ошибка в параметрах", "Не все параметры заполнены", "Запись не добавлена по неизвестной причине"]
+                                            }        
+                                        }
+                                    }
+                                }                            
+                            }
+                        }
+                    }
+                }
+            },
+        "/students/{id}":{
+            "get":{"tags":["Запрос данных"],
+                "summary": "Получение данных о студенте",
+                "description": "Метод возвращает учётную запись студента по её идентификатору ",
+                "operationId": "getStudent",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "description": "ID студента",
+                        "in": "path",
+                        "required": true,
+                        "schema":{
+                            "type": "integer",
+                            "minimum": 0
+                        }
+                    }
+                ],
+                "responses": {
+                    "200":{
+                        "description": "Данные о студенте",
+                        "content": {
+                            "application/json":{
+                                "schema":{
+                                    "type":"object" ,
+                                    "properties": {
+                                        "id":{
+                                            "type": "integer",
+                                            "minimum": 0,
+                                            "description": "ИД записи",
+                                            "example": "1"
+                                        },
+                                        "lastName":{
+                                            "type": "string",
+                                            "description": "Фамилия",
+                                            "example": "Иванов"
+                                        },
+                                        "firstName":{
+                                            "type": "string",
+                                            "description": "Имя",
+                                            "example": "Иван"
+                                        },
+                                        "middleName":{
+                                            "type": "string",
+                                            "description": "Отчество",
+                                            "example": "Иванович"
+                                        },
+                                        "birthDay":{
+                                            "type": "string",
+                                            "description": "Дата рождения",
+                                            "example": "2020-12-31",
+                                            "format": "date",
+                                            "pattern": "(19|20)[0-9][0-9]-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])"                                                        
+                                        },
+                                        "groupCode": {
+                                            "type": "string",
+                                            "description": "Учебная группа",
+                                            "example": "SA_2021-22_03",
+                                            "pattern": "[A-Z][AZ]_[0-9][0-9][0-9][0-9]-[0-9][0-9]_[0-9][0-9]"                            
+                                    },                                   
+                                        "statusName": {
+                                            "type": "string",
+                                            "description": "Статус",
+                                            "example": "Зачислен",
+                                            "enum": ["Зачислен", "Учится", "Завершил", "Отчислен"]
+                                    },                                   
+                                        "congratulate": {
+                                            "type": "number",
+                                            "description": "Поздравить с д.р.",
+                                            "example": "36"
+                                        }        
+                                    }
+                                }
+                            }                            
+                        }
+                    },
+                    "400":{
+                        "description": "Ошибка в запросе",
+                        "content": {
+                            "application/json":{
+                                "schema":{
+                                    "type":"object" ,
+                                    "properties": {
+                                        "status":{
+                                            "type": "boolean",
+                                            "description": "Статус",
+                                            "example": "false"
+                                        },
+                                        "message":{
+                                            "type": "string",
+                                            "description": "Сообщение",
+                                            "example": "Некорректный параметр запроса"
+                                        }        
+                                    }
+                                }
+                            }                            
+                        }
+                    },
+                    "404":{
+                        "description": "Запись не найдена",
+                        "content": {
+                            "application/json":{
+                                "schema":{
+                                    "type":"object" ,
+                                    "properties": {
+                                        "status":{
+                                            "type": "boolean",
+                                            "description": "Статус",
+                                            "example": "false"
+                                        },
+                                        "message":{
+                                            "type": "string",
+                                            "description": "Сообщение",
+                                            "example": "Запись не найдена"
+                                        }        
+                                    }
+                                }
+                            }                            
+                        }
+                    }  
+                }
+            },
+            "patch":{
+                "tags":["Изменение данных"],
+                "summary": "Обновление записи",
+                "description": "Метод обновляет учётную запись студента в системе",
+                "operationId": "patchStudent",
+                "parameters": [    
+                    {
+                        "in":"header",
+                        "name": "Token-Students",
+                        "description": "Токен авторизации",
+                        "required": true, 
+                        "schema": {
+                            "type": "string",                           
+                            "example": "0586cc297ce40e185627312168235170"
+                        }
+                    },
+                    {
+                        "name": "id",
+                        "description": "ID студента",
+                        "in": "path",
+                        "required": true,
+                        "schema":{
+                            "type": "integer",
+                            "minimum": 0
+                        }
+                    }
+                ],
+                "requestBody":{
+                    "required": true,
+                    "content": {
+                        "application/json":{
+                            "schema":{
+                                "type": "object",
+                                "properties": {
+                                        "lastName":{
+                                            "type": "string",
+                                            "description": "Фамилия",
+                                            "example": "Иванов"
+                                        },
+                                        "firstName":{
+                                            "type": "string",
+                                            "description": "Имя",
+                                            "example": "Иван"
+                                        },
+                                        "middleName":{
+                                            "type": "string",
+                                            "description": "Отчество",
+                                            "example": "Иванович"
+                                        },
+                                        "birthday": {
+                                            "type": "string",
+                                            "description": "Дата рождения",
+                                            "example": "2020-12-31",
+                                            "format": "date",
+                                            "pattern": "(19|20)[0-9][0-9]-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "responses": {
+                        "200":{
+                            "description": "Запись обновлена",
+                            "content": {
+                                "application/json":{
+                                    "schema":{
+                                        "type":"object" ,
+                                        "properties": {
+                                            "status":{
+                                                "type": "boolean",
+                                                "description": "Статус",
+                                                "example": "true"
+                                            },
+                                            "message":{
+                                                "type": "string",
+                                                "description": "Сообщение",
+                                                "example": "Запись обновлена"                                                
+                                            }         
+                                        }
+                                    }
+                                }                            
+                            }
+                        },
+                        "400":{
+                            "description": "Запись не обновлена",
+                            "content": {
+                                "application/json":{
+                                    "schema":{
+                                        "type":"object" ,
+                                        "properties": {
+                                            "status":{
+                                                "type": "boolean",
+                                                "description": "Статус",
+                                                "example": "false"
+                                            },
+                                            "message":{
+                                                "type": "string",
+                                                "description": "Сообщение",
+                                                "example": "Запись не обновлена"                                                
+                                            }        
+                                        }
+                                    }
+                                }                            
+                            }
+                        },
+                    "401":{
+                        "description": "Требуется аутентификация",
+                        "content": {
+                            "application/json":{
+                                "schema":{
+                                    "type":"object" ,
+                                    "properties": {
+                                        "status":{
+                                            "type": "boolean",
+                                            "description": "Статус",
+                                            "example": "false"
+                                        },
+                                        "message":{
+                                            "type": "string",
+                                            "description": "Сообщение",
+                                            "example": "Требуется аутентификация"                                                
+                                        }        
+                                    }
+                                }
+                            }                            
+                        }
+                    }
+                }
+            },
+            "delete":{
+                "tags":["Изменение данных"],
+                "summary": "Удаление записи",
+                "description": "Метод удаляет учётную запись студента из системы",
+                "operationId": "deleteStudent",
+                "parameters": [    
+                    {
+                        "in":"header",
+                        "name": "Token-Students",
+                        "description": "Токен авторизации",
+                        "required": true, 
+                        "schema": {
+                            "type": "string",                           
+                            "example": "0586cc297ce40e185627312168235170"
+                        }
+                    },
+                    {
+                        "name": "id",
+                        "description": "ID студента",
+                        "in": "path",
+                        "required": true,
+                        "schema":{
+                            "type": "integer",
+                            "minimum": 0
+                        }
+                    }
+                ],
+                    "responses": {
+                        "200":{
+                            "description": "Запись удалена",
+                            "content": {
+                                "application/json":{
+                                    "schema":{
+                                        "type":"object" ,
+                                        "properties": {
+                                            "status":{
+                                                "type": "boolean",
+                                                "description": "Статус",
+                                                "example": "true"
+                                            },
+                                            "message":{
+                                                "type": "string",
+                                                "description": "Сообщение",
+                                                "example": "Запись удалена"                                                
+                                            }         
+                                        }
+                                    }
+                                }                            
+                            }
+                        },
+                        "400":{
+                            "description": "Запись не удалена",
+                            "content": {
+                                "application/json":{
+                                    "schema":{
+                                        "type":"object" ,
+                                        "properties": {
+                                            "status":{
+                                                "type": "boolean",
+                                                "description": "Статус",
+                                                "example": "false"
+                                            },
+                                            "message":{
+                                                "type": "string",
+                                                "description": "Сообщение",
+                                                "example": "Запись не удалена"                                                
+                                            }        
+                                        }
+                                    }
+                                }                            
+                            }
+                        },
+                    "401":{
+                        "description": "Требуется аутентификация",
+                        "content": {
+                            "application/json":{
+                                "schema":{
+                                    "type":"object" ,
+                                    "properties": {
+                                        "status":{
+                                            "type": "boolean",
+                                            "description": "Статус",
+                                            "example": "false"
+                                        },
+                                        "message":{
+                                            "type": "string",
+                                            "description": "Сообщение",
+                                            "example": "Требуется аутентификация"                                                
+                                        }        
+                                    }
+                                }
+                            }                            
+                        }
+                    }
+                }
+            }   
+        }
+    }
+  }
